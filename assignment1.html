@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Writing Editor</title>
+
+    <!-- CSS file -->
+    <link rel="stylesheet" href="assignment1.css">
+</head>
+  <body>
+
+    <div class="container">
+
+        <h1>AI Writing Editor</h1>
+        <p class="subtitle">Create, edit, delete, and improve your documents</p>
+
+        <!-- Document Form -->
+        <div class="editor-box">
+
+            <label for="title">Document Title</label>
+            <input type="text" id="title" placeholder="Enter document title">
+
+            <label for="content">Document Content</label>
+            <textarea id="content" placeholder="Write your document here..."></textarea>
+
+            <div class="buttons">
+                <button id="saveBtn">Save Document</button>
+                <button id="clearBtn">Clear</button>
+            </div>
+
+            <div class="ai-buttons">
+                <button id="improveBtn">Improve Writing</button>
+                <button id="summarizeBtn">Summarize</button>
+            </div>
+
+        </div>
+
+        <!-- Saved Documents -->
+        <div class="documents-box">
+            <h2>Saved Documents</h2>
+
+            <div id="documentsList">
+                <!-- Documents will appear here using JavaScript -->
+            </div>
+        </div>
+
+    </div>
+
+    <!-- JavaScript file -->
+    <script src="assignment1.js"></script>
+</body>
+</html>
